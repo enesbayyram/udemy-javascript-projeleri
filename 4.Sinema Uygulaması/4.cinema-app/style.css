@@ -1,0 +1,173 @@
+body {
+    background-color: rgb(54, 54, 54);
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.title {
+    color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.seat {
+    font-size: 35px;
+    margin: 6px;
+    color: lightgrey;
+}
+
+.seat:not(.full):hover{
+    transform: scale(1.2);
+}
+
+.movieMain {
+    margin-top: 15px;
+}
+
+#selectMovie {
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Koltuk Statüleri BAŞLANGIÇ */
+
+.seatStatusMain {
+    margin-top: 20px;
+}
+
+.emptySeat {
+    color: lightgrey;
+    font-size: 16px;
+}
+
+.selectedSeat {
+    color: rgb(227, 227, 98);
+    font-size: 16px;
+}
+
+.fullSeat {
+    color: rgb(233, 68, 68);
+    font-size: 16px;
+}
+
+
+.seatStatusMain>.row>div {
+    margin-right: 10px;
+}
+
+/* Koltuk Statüleri BİTİŞ */
+
+
+
+/* Sonuç Metni */
+.resultTextMain {
+    margin-top: 10px;
+}
+
+.resultTextMain>p {
+    color: lightgrey;
+    font-size: 18px;
+}
+
+.resultTextMain>p>span {
+    color: rgb(231, 231, 78);
+}
+
+/* Sonuç Metni */
+
+
+/* Butonlar Başlangıç */
+
+.buttonMain {
+    margin-top: 10px;
+}
+
+#buyButton {
+    width: 80px;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: rgb(23, 100, 41);
+    border: none;
+    color: #fff;
+}
+
+#clearButton {
+    width: 80px;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: rgb(108, 108, 108);
+    border: none;
+    color: #fff;
+}
+
+
+/* Butonlar Bitiş */
+
+
+
+
+/* SAHNE */
+
+.screen {
+    background-color: lightgrey;
+    width: 650px;
+    height: 140px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 8px lightgrey;
+}
+
+.screenTitle {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: rgb(57, 57, 57);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* SAHNE */
+
+
+
+/* KOLTUK RENKLERİ */
+
+.empty{
+    color:lightgrey;
+}
+
+.selected{
+    color:rgb(227, 227, 98);
+}
+
+.full{
+   color: rgb(233, 68, 68);
+}
+
+
+/* KOLTUK RENKLERİ */

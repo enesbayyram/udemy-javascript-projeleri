@@ -1,0 +1,31 @@
+#footer {
+    margin-top: 10px;
+    background-color: #fff;
+    border: 1px solid lightgrey;
+
+}
+
+#mainDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#instagramLogo{
+    font-size: 35px;
+    color: rgb(220, 82, 82);
+    margin-right: 5px;
+}
+
+#youtubeLogo{
+    font-size: 35px;
+    color: red;
+    margin-right: 5px;
+}
+
+
+#twitterLogo{
+    font-size: 35px;
+    color: rgb(56, 113, 194);
+}
